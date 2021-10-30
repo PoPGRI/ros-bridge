@@ -49,7 +49,7 @@ class CarlaRosBridge(CompatibleNode):
 
     # in synchronous mode, if synchronous_mode_wait_for_vehicle_control_command is True,
     # wait for this time until a next tick is triggered.
-    VEHICLE_CONTROL_TIMEOUT = 1.
+    VEHICLE_CONTROL_TIMEOUT = 1000.
 
     def __init__(self):
         """
